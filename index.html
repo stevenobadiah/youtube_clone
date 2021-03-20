@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Youtube Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <button id="menu-icon">
+            <img src="images/youtube.svg" alt="YouTube Logo">
+            <h1>YouTube</h1>
+        </button>
+        <div id="input-search">
+            <input type="text" placeholder="Search">
+            <button id="search-button">
+                <img src="images/magnify.svg" alt="Magnify Glass">
+            </button>
+        </div>
+        <div id="user-options">
+            <button>
+                <img src="images/video-plus.svg" alt="Magnify Glass">   
+            </button>
+            <button>
+                <img src="images/apps.svg" alt="Magnify Glass">   
+            </button>
+            <button>
+                <img src="images/dots-vertical.svg" alt="Magnify Glass">   
+            </button>
+            <button id="sign-in">
+                <img src="images/video-plus.svg" alt="Magnify Glass">
+                <h2>SIGN IN</h2> 
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <div id="video-container">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/UqwYI9un1qc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="video-info">
+                <div id="video-title">
+                    <h2>Video Title</h2>
+                </div>
+                <div id="video-primary-info">
+                    <div id="video-views-date">
+                        <p>12,000,000 views * May 19, 2005</p>
+                    </div>
+                    <div id="video-options">
+                        <div id="like-and-dislike">
+                            <button>
+                                <img src="images/thumb-up.svg" alt="Thumb Up">
+                            </button>
+                            <p>123K</p>
+                            <button>
+                                <img src="images/thumb-down.svg" alt="Thumb Down">
+                            </button>
+                            <p>3.6K</p>
+                        </div>
+                        <button>
+                            <img src="images/share.svg" alt="Share Icon">
+                            <p>SHARE</p>
+                        </button>
+                        <button>
+                            <img src="images/playlist-plus.svg" alt="Playlist Add Icon">
+                            <p>SAVE</p>
+                        </button>
+                        <button>
+                            <img src="images/dots-horizontal.svg" alt="Horizontal Dots Icon">
+                        </button>
+                    </div>
+                </div>    
+            </div>
+            <div id="video-description">
+                <div id="channel-information">
+                    <div id="channel">
+                        <div id="channel-avatar">
+                            <img src="images/account-circle.svg" alt="Profile Picture">
+                        </div>
+                        <div id="channel-primary-info">
+                            <h3>Minecraft</h3>
+                            <p>3.1M subscribers</p>
+                        </div>
+                    </div>
+                    <button id="subscribe-button">
+                        <p>SUBSCRIBE</p>
+                    </button>
+                </div>
+                <p id="description-text">
+                    Description
+                </p>
+            </div>
+        </main>
+        <aside>
+            <div class="related-video">
+                <a href="https://www.youtube.com/watch?v=Xqq9TP9zbtY">
+                    <div class="related-thumbnail">
+                        <img src="images/thumbnail_analog_africa.jpg" width = "150", height="100">
+                        <p class="related-duration">10:26</p>
+                    </div>
+                    <div class="related-video-info">
+                        <h6>Related Title</h6>
+                        <p>Related Channel</p>
+                        <p>View Count</p>
+                    </div>
+                </a>
+            </div>
+        </aside>
+        <section id="comments">
+            <div class="comment">
+                <div class="user-avatar">
+                    <img src="images/account-circle.svg" alt="Comment User Avatar">
+                </div>
+                <div class="comment-body">
+                    <div class="comment-author">
+                        <h5>UserName</h5>
+                        <p>1 day ago</p>
+                    </div>
+                    <p class="comment-text">This is nice</p>
+                    <div class="comment-interact">
+                        <button>
+                            <img src="images/thumb-up.svg" alt="Thumb Up">
+                        </button>
+                        <p>123K</p>
+                        <button>
+                            <img src="images/thumb-down.svg" alt="Thumb Down">
+                        </button>
+                        <p class="reply">REPLY</p>
+                    </div>
+                    <div class="reply-dropdown">
+                        <img src="images/menu-down.svg" alt="Reply Dropdown">
+                        <p>View reply</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="user-avatar">
+                    <img src="images/account-circle.svg" alt="Comment User Avatar">
+                </div>
+                <div class="comment-body">
+                    <div class="comment-author">
+                        <h5>UserName</h5>
+                        <p>1 day ago</p>
+                    </div>
+                    <p class="comment-text">This is nice</p>
+                    <div class="comment-interact">
+                        <button>
+                            <img src="images/thumb-up.svg" alt="Thumb Up">
+                        </button>
+                        <p>123K</p>
+                        <button>
+                            <img src="images/thumb-down.svg" alt="Thumb Down">
+                        </button>
+                        <p class="reply">REPLY</p>
+                    </div>
+                    <div class="reply-dropdown">
+                        <img src="images/menu-down.svg" alt="Reply Dropdown">
+                        <p>View reply</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="user-avatar">
+                    <img src="images/account-circle.svg" alt="Comment User Avatar">
+                </div>
+                <div class="comment-body">
+                    <div class="comment-author">
+                        <h5>UserName</h5>
+                        <p>1 day ago</p>
+                    </div>
+                    <p class="comment-text">This is nice</p>
+                    <div class="comment-interact">
+                        <button>
+                            <img src="images/thumb-up.svg" alt="Thumb Up">
+                        </button>
+                        <p>123K</p>
+                        <button>
+                            <img src="images/thumb-down.svg" alt="Thumb Down">
+                        </button>
+                        <p class="reply">REPLY</p>
+                    </div>
+                    <div class="reply-dropdown">
+                        <img src="images/menu-down.svg" alt="Reply Dropdown">
+                        <p>View reply</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
